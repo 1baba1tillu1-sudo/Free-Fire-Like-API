@@ -160,8 +160,8 @@ def decode_protobuf(binary):
 @app.route('/', methods=['GET'])
 def index():
     return jsonify({
-        "WELCOME TO FINEX CORPORATION":,  ☠
-        "DEVELOPER": "SATYAM ♛",
+        "WELCOME TO FINEX CORPORATION":,  
+        "DEVELOPER": "SATYAM ",
         "message": "Welcome to the Free Fire Like API",
         "status": "API is running",
         "endpoints": "/like?uid=<uid> or /like?uid=<uid>&server_name=<server_name>",
